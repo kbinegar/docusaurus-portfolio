@@ -1,0 +1,80 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap');:root 
+{
+  --ifm-color-primary: #76220B;
+  --ifm-color-primary-dark: #6a1f0a;
+  --ifm-color-primary-darker: #641d09;
+  --ifm-color-primary-darkest: #531808;
+  --ifm-color-primary-light: #82250c;
+  --ifm-color-primary-lighter: #88270d;
+  --ifm-color-primary-lightest: #992c0e;
+
+  --ifm-background-color: #f6f4f0;
+  --ifm-font-color-base: #1c1b1a;
+  --ifm-color-emphasis-600: #4a4744;
+  --ifm-toc-border-color: #d8d3c8;
+
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'Source Serif 4', Georgia, serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+
+  --ifm-background-color: #1c1b1a;
+  --ifm-font-color-base: #f6f4f0;
+  --ifm-color-emphasis-600: #b8b3ac;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Sidebar font */
+.menu__link {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 300;
+  letter-spacing:normal;
+}
+
+/* Download Resume Button */
+.my-download-button {
+  display: inline-flex;
+  align-items: center;     /* Centers text vertically */
+  justify-content: center; /* Centers text horizontally */
+  padding: 10px 20px;      /* Standard spacing */
+  height: 50px;            /* Optional fixed height */
+  border: 1px solid var(--ifm-color-primary-lightest);
+  border-radius: 5px;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 0.85rem;
+  color: var(--ifm-color-primary);
+}
+
+.my-download-button:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: var(--ifm-background-color); /* Optional hover effect */
+}
+
+/* DocCardListItem styles */
+.theme-doc-card-icon {
+  display: none;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}

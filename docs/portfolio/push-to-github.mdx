@@ -1,0 +1,57 @@
+---
+sidebar_position: 3
+---
+
+# Publish a Local Git Repository to GitHub Using Visual Studio Code
+This guide explains how to publish an existing local Git repository to GitHub using the Source Control features in VS Code.
+
+### Prerequisites 
+1. A GitHub account
+2. Git is installed and available in Terminal (`git --version`)
+3. Visual Studio Code is installed
+4. A local Git repository exists on your machine
+
+### Steps
+1. **Open the project folder in VS Code**
+
+2. **Open the Source Control panel**
+    - Press `Cmd+Shift+G`
+    - Or, select Source Control in the sidebar
+
+3. **Stage changes**
+   - In the Source Control panel, select the **+** icon next to a file to stage it, or  
+   - Select the **+** icon next to **Changes** to stage all files
+
+    Staging changes determines which modifications are included in a commit.
+
+4. **Make a commit**
+
+    1. In the Source Control panel, review the staged files under **Staged Changes**
+    2. Enter a descriptive commit message in the text box and press **Commit**
+
+5.  **Publish to GitHub**
+    1. Under **Repositories**, select Publish to GitHub
+    2. A pop-up appears with the message:
+      `The extension 'GitHub' wants to sign in using GitHub.`  
+    Select **Allow**
+    3. A new browser tab opens
+        - If you are already signed in, select **Continue** or **Use a different account**
+        - If you are not signed in, sign in to GitHub when prompted.
+    4. Authorize VS Code in GitHub when prompted
+        - If prompted, verify your email to continue.
+        - After authentication, VS Code displays publishing options:
+            - `Publish to GitHub private repository username/repo_name`
+            - `Publish to GitHub public repository username/repo_name`
+    5. Select a visibility option and press Enter.
+
+### Verify
+After publishing, a confirmation message appears:
+
+`Successfully published the "username/repo_name" repository to GitHub`
+
+Select **Open on GitHub** to view the repository.
+
+Confirm that:
+- The repository appears on GitHub  
+- Your files are visible  
+- The commit history matches your local repository   

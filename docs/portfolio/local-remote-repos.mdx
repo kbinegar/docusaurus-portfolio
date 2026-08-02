@@ -1,0 +1,49 @@
+---
+sidebar_position: 2
+---
+
+# Understanding Local and Remote Repositories in Git
+
+This document explains local and remote repositories and how they function with pushing and pulling information within commits. 
+
+### Key Concepts
+**Local Repository**  
+- A local repository is a version-controlled project stored on a user’s machine. It contains the project’s files along with its full change history.
+
+**Remote Repository**  
+- A remote repository is a version-controlled project hosted on a cloud-based platform, such as GitHub. It allows users to store, share, and collaborate on code outside their local environment.
+
+**Commits**  
+- A commit is a recorded snapshot of changes made to a project. Each commit includes a message describing what was changed, creating a trackable history of updates over time.
+
+**Push vs Pull**  
+- “Push” and “Pull” describe how changes move between a local repository and a remote repository.
+    - **Push** sends your committed changes from your local repository to a remote repository (such as GitHub). 
+    - **Pull** retrieves changes from a remote repository and updates your local copy.
+
+- These actions keep local and remote repositories synchronized.
+
+### How They Work Together 
+A typical Git workflow involves making changes locally and then synchronizing those changes with a remote repository.
+
+1. Changes are made and saved in the local repository.  
+2. These changes are recorded as commits.  
+3. The commits are pushed to a remote repository to share or back up the work.  
+4. If changes are made in the remote repository (for example, by a collaborator), those updates can be pulled into the local repository.
+
+This cycle allows both local and remote versions of a project to stay up to date.
+
+### Example Workflow
+
+In a typical Git-based workflow, work moves between a local environment and a remote repository in a continuous cycle.
+
+A user begins by working in a local repository, such as a project opened in Visual Studio Code. Changes are made to files and recorded as commits, each representing a snapshot of progress.
+
+Once changes are ready to be shared, commits are pushed to a remote repository hosted on a platform like GitHub. This makes the updates available outside the local environment and preserves a backup of the work.
+
+If updates are made in the remote repository—either by the same user or collaborators—they can be **pulled** back into the local repository to ensure both versions remain synchronized.
+
+This workflow supports version control, collaboration, and reliable tracking of project history.
+
+### Why This Matters 
+Local and remote repositories allow you to manage and share your work across environments. Push and pull keep changes synchronized and enable collaboration on shared projects.
