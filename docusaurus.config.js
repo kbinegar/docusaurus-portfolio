@@ -114,6 +114,11 @@ navbar: {
       label: 'GitHub',
       position: 'right',
     },
+        {
+      href: 'https://www.linkedin.com/in/kennedy-binegar-53060b161', 
+      label: 'LinkedIn',
+      position: 'right',
+    },
   ],
 },
       footer: {
