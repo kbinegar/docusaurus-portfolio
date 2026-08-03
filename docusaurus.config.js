@@ -104,10 +104,10 @@ navbar: {
     },
     { to: '/blog', label: 'Blog', position: 'left' },
     {
-      to: '/docs/How-I-Built-This',
+      to: '/docs/how-i-built-this',
       position: 'left',
       label: 'How I Built This',
-      activeBaseRegex: `/docs/How-I-Built-This`,
+      activeBaseRegex: `/docs/how-i-built-this`,
     },
     {
       href: 'https://github.com/kbinegar', 
@@ -124,7 +124,7 @@ navbar: {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/about',
               },
             ],
           },
