@@ -125,11 +125,14 @@ navbar: {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Hire Me',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/about',
+                label: 'kcbinegar@gmail.com',
+                href: 'mailto:kcbinegar@gmail.com'
+              },
+              {
+                html: 'Portland, OR',
               },
             ],
           },
@@ -137,16 +140,12 @@ navbar: {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/kennedy-binegar-53060b161',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/kbinegar',
               },
             ],
           },
@@ -154,17 +153,15 @@ navbar: {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                html: 'Rev. July 2026'
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                html: 'Hosted on GitHub Pages'
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kennedy Binegar. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
