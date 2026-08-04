@@ -111,13 +111,15 @@ navbar: {
     },
     {
       href: 'https://github.com/kbinegar', 
-      label: 'GitHub',
       position: 'right',
+      className: 'header-github-link',
+      'aria-label': 'GitHub repository',
     },
         {
       href: 'https://www.linkedin.com/in/kennedy-binegar-53060b161', 
-      label: 'LinkedIn',
       position: 'right',
+      className: 'header-linkedin-link',
+      'aria-label': 'LinkedIn profile',
     },
   ],
 },
