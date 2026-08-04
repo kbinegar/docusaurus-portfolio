@@ -3,7 +3,7 @@ sidebar_position: 4
 sidebar_label: 'How I Built This'
 ---
 # How I Built This
-This site is a small case study in itself — it's built with the same docs-as-code principles I write about professionally, applied to my own portfolio.
+This site is a small case study in itself — it's built with the same docs-as-code principles I use professionally, applied to my own portfolio.
 
 ## Stack
 * [**Docusaurus:**](https://docusaurus.io/) A static site generator that uses React as its core framework, built for the purpose of creating documentation-style content.
@@ -27,20 +27,20 @@ The site deploys automatically through a GitHub Actions workflow (`.github/workf
 
 * **Build:**
     * Checkout the repository 
-    * Install dependencies with `npi ci`
-    * Compile the sit with `npm run build`, which compiles all Markdown/MDX content and React components into a static `build/` folder 
+    * Install dependencies with `npm ci`
+    * Compile the site with `npm run build`, which compiles all Markdown/MDX content and React components into a static `build/` folder 
 
 * **Test:** Docusaurus' build step includes a broken-link check. If any internal link points to a page that does not exist, the build fails outright instead of shipping a broken link. This is currently the only automated check in the pipeline — see "Updates to Come" below for the custom checks I'm adding on top of it.
 
 * **Deploy:** 
     * Upload the built `build/` folder as a GitHub Pages artifact
-    * Deploy that artifact to teh `github-pages` environment, which serves the live site
+    * Deploy that artifact to the `github-pages` environment, which serves the live site
 
 ## Updates to Come
 This page will be updated as the site evolves. I am currently building out a custom set of automated checks — using Claude Code to help design and implement them — that will run as part of the GitHub Actions pipeline on every push. Planned checks include:
 * **Grammar:** flagging grammatical issues in both doc and blog content. 
 * **Deployment Validation:** confirming the site builds and deploys cleanly, beyond the broken-link check. 
-* **File Extension Checks:** enforcing consistent naming and extension conventions across `docs/` abd `blog/` (e.g. catching stray misplaced file types) 
+* **File Extension Checks:** enforcing consistent naming and extension conventions across `docs/` and `blog/` (e.g. catching stray misplaced file types) 
 
 The goal is to demonstrate not just the operation of CI/CD tooling, but that I can design and build my own checks tailored to a documentation-heavy site. Once these are in place, I'll add a breakdown and diagram of the pipeline to this page. This will allow users to see the actual build-and-deploy process rather than just reading about it here. 
 
