@@ -110,6 +110,12 @@
   color: var(--ifm-background-color); /* Optional hover effect */
 }
 
+/*Footer copyright text size adjustment */
+.footer__copyright {
+  font-size: .87rem;
+  padding-top: 1.3rem;
+}
+
 /* DocCardListItem styles */
 .theme-doc-card-icon {
   display: none;
