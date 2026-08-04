@@ -38,6 +38,7 @@ The site deploys automatically through a GitHub Actions workflow (`.github/workf
 
 ## Updates to Come
 This page will be updated as the site evolves. I am currently building out a custom set of automated checks — using Claude Code to help design and implement them — that will run as part of the GitHub Actions pipeline on every push. Planned checks include:
+* **Spelling:** catching typos across all Markdown/MDX content before it reaches production.
 * **Grammar:** flagging grammatical issues in both doc and blog content. 
 * **Deployment Validation:** confirming the site builds and deploys cleanly, beyond the broken-link check. 
 * **File Extension Checks:** enforcing consistent naming and extension conventions across `docs/` and `blog/` (e.g. catching stray misplaced file types) 
