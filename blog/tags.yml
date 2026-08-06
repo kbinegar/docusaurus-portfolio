@@ -1,14 +1,14 @@
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
-  description: Docusaurus tag description
+  description: Posts that relate to Docusaurus, the static site generator used to build this site.
 
 AI:
   label: AI
   permalink: /ai
-  description: AI tag description
+  description: Posts that include discussions on AI tools and uses, both practical and philosophical, as they relate to documentation and the production of effective communication.
 
 Write the Docs Conference:
   label: Write the Docs Conference
   permalink: /write-the-docs-conference
-  description: Write the Docs Conference tag description
+  description: Posts covering insights, experiences, and key takeaways from the Write the Docs Conference, a gathering of technical writers, documentation enthusiasts, and industry experts.
