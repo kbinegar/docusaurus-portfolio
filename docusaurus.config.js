@@ -101,6 +101,8 @@ navbar: {
       label: 'How I Built This',
       activeBaseRegex: `/docs/how-i-built-this`,
     },
+    
+    /* Social media links in the navbar */
     {
       href: 'https://github.com/kbinegar', 
       position: 'right',
