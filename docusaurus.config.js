@@ -70,7 +70,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/kb-social-card.jpg',
+      image: '/img/kb-social-card.png',
       colorMode: {
         defaultMode: 'light',
         respectPrefersColorScheme: false,
