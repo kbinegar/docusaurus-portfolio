@@ -16,7 +16,7 @@ function HomepageHeader() {
           I enjoy untangling complexity.
         </p>
         <p className={styles.heroDescription}>
-          Technical writer focused on clear, user-centered documentation —
+          Technical writer focused on clear, user-centered documentation: 
           tutorials, docs-as-code, style guides, and content that genuinely
           helps users.
         </p>
